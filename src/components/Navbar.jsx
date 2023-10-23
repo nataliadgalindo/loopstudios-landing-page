@@ -27,7 +27,7 @@ function Navbar() {
 
       <img
         src={`/images/icon-${showNav ? "close" : "hamburger"}.svg`}
-        alt="mobile menu"
+        alt={`${showNav ? "close" : "open"} mobile menu`}
         className="hamburger"
         onClick={() => setShowNav((prev) => !prev)}
       />
