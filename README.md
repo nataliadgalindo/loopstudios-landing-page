@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-made-with-react-flexbox-and-grid-jR-g5VAhMg](https://www.frontendmentor.io/solutions/responsive-landing-page-made-with-react-flexbox-and-grid-jR-g5VAhMg)
+- Live Site URL: [https://fm-loopstudios-landing-page.netlify.app/](https://fm-loopstudios-landing-page.netlify.app/)
 
 ## My process
 
