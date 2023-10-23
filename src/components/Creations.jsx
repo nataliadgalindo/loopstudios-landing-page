@@ -8,14 +8,19 @@ function Creations() {
         <button className="see-all-btn see-all-desktop">see all</button>
       </header>
 
-      <ul className="creations-gallery">
-        {creationGallery.map((title, i) => (
-          <li key={i} className={`creation-item ${title.replaceAll(" ", "-")}`}>
-            <div className="overlay"></div>
-            <h3>{title.toUpperCase()}</h3>
-          </li>
-        ))}
-      </ul>
+      <div>
+        <ul className="creations-gallery">
+          {creationGallery.map((title, i) => (
+            <li
+              key={i}
+              className={`creation-item ${title.replaceAll(" ", "-")}`}
+            >
+              <div className="overlay"></div>
+              <h3>{title.toUpperCase()}</h3>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       <button className="see-all-btn see-all-mobile">see all</button>
     </section>
