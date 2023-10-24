@@ -65,6 +65,7 @@ a {
 
 .nav-menu a {
   color: #fff;
+  display: inline;
 }
 
 .section-title {
