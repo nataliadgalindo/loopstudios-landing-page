@@ -282,6 +282,7 @@ footer {
 footer .nav-menu {
   display: flex;
   flex-direction: column;
+  align-items: center;
   row-gap: 1.25em;
   margin: 2em 0 3em;
 }
@@ -313,7 +314,7 @@ footer a {
 
 /* hovers */
 
-.nav-menu a:hover + .custom-border {
+footer .nav-menu a:hover + .custom-border {
   display: block;
 }
 
@@ -590,6 +591,12 @@ footer a {
     align-items: center;
     column-gap: 1em;
     margin-bottom: 0;
+  }
+
+  /* hovers */
+
+  .nav-menu a:hover + .custom-border {
+    display: block;
   }
 }
 
